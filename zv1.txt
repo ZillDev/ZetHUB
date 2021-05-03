@@ -6,7 +6,7 @@ local Combat 	        = require(game:GetService("ReplicatedStorage").Shared.Comb
 local CharProfileCheck 	= game:GetService("ReplicatedStorage"):FindFirstChild("Profiles"):FindFirstChild(Player.Name);
 local ClassGUI 			= CharProfileCheck and game:GetService("ReplicatedStorage").Profiles[Player.Name].Class;
 local GetEvent          = Combat and Combat:GetAttackEvent();
-local MaxDistance       = 50; --> Change to your liking
+local MaxDistance       = 200; --> Change to your liking
 local Speed             = 2; --> Change to liking
 
 -- Support Stuff
