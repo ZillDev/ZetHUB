@@ -6,8 +6,8 @@ local Combat 	        = require(game:GetService("ReplicatedStorage").Shared.Comb
 local CharProfileCheck 	= game:GetService("ReplicatedStorage"):FindFirstChild("Profiles"):FindFirstChild(Player.Name);
 local ClassGUI 			= CharProfileCheck and game:GetService("ReplicatedStorage").Profiles[Player.Name].Class;
 local GetEvent          = Combat and Combat:GetAttackEvent();
-local MaxDistance       = 200; --> Change to your liking
-local Speed             = 2; --> Change to liking
+local MaxDistance       = 150;
+local Speed             = 2;
 
 -- Support Stuff
 if (not getconnections) then return Player:Kick("no getconnections support bye."); end;
