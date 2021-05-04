@@ -7,7 +7,7 @@ local CharProfileCheck 	= game:GetService("ReplicatedStorage"):FindFirstChild("P
 local ClassGUI 			= CharProfileCheck and game:GetService("ReplicatedStorage").Profiles[Player.Name].Class;
 local GetEvent          = Combat and Combat:GetAttackEvent();
 local MaxDistance       = 50;
-local Speed             = 1.3;
+local Speed             = 1.1;
 
 -- Support Stuff
 if (not getconnections) then return Player:Kick("no getconnections support bye."); end;
