@@ -1,4 +1,4 @@
---ByLoganRMX
+--
 local folder = Instance.new("Folder", workspace)
 
 local function makeUI(parent, itemName)
